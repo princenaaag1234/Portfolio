@@ -212,12 +212,20 @@ p {
 }
 
 .man{
-  width: 500px;
+  width: 100px;
   height: 15px;
   background: grey;
-  transition: width 2s;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-name: about;
+  animation-direction: alternate-reverse;
 }
-
-.man:hover {
-    width: 1500px;
-  }
+@keyframes about {
+    from {
+      margin-left: %;
+    }
+  
+    to {
+      margin-left: 5%;
+    }
+  } 
