@@ -90,14 +90,6 @@ rem
     position: relative;
     z-index: 1;
 }
-.one {
-    font-size: 1.5rem;
-    transition: width 2s, height 4s;
-}
-.one:hover {
-    width: 5px;
-    height: 5px;
-  }
 /* Testimonial section */
 #testimonials {
     padding: 1% 15%;
@@ -169,6 +161,10 @@ rem
     margin-bottom: 30px;
 }
 
+.fab:hover {
+    transform: rotateY(180deg);
+}
+
 
 /* progress-sec */
 .progress {
@@ -209,3 +205,10 @@ rem
       width: 50%;
     }
   }
+
+
+/* 
+  BUTTON SETTINGS */
+.btn:hover{
+    color: black;
+}
