@@ -90,9 +90,14 @@ rem
     position: relative;
     z-index: 1;
 }
-.feature-title {
+.one {
     font-size: 1.5rem;
+    transition: width 2s, height 4s;
 }
+.one:hover {
+    width: 5px;
+    height: 5px;
+  }
 /* Testimonial section */
 #testimonials {
     padding: 1% 15%;
@@ -174,3 +179,33 @@ rem
 .textarea {
     width:50%;
 }
+
+
+
+
+.btns{
+    animation-duration: 3s;
+    animation-name: txt;
+  }
+  
+
+.feature-set{
+    animation-duration: 3s;
+    animation-name: txt;
+}
+.navbar{
+    animation-duration: 3s;
+    animation-name: txt;
+}
+  
+  @keyframes txt {
+    from {
+      margin-left: -100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 50%;
+    }
+  }
