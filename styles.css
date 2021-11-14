@@ -1,0 +1,176 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+    padding: 0 20%;
+}
+.big-heading {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+
+.prjts {
+    margin-top: 30px;
+}
+.container-fluid {
+    padding: 2% 15%;
+}
+/* sections */
+.colored-section {
+    background-image:url('https://media.istockphoto.com/photos/modern-workplace-with-smart-watch-coffee-cup-keyboard-notebook-and-picture-id1309370850?k=20&m=1309370850&s=612x612&w=0&h=9N7-L0pFfq_eZ2MiIsxuAo86Cn_8SeqTYU9QIyryZeM=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 0px;
+
+}
+.white-section {
+    background-color: white;
+}
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    padding-top: 0.3125
+rem
+;
+    padding-bottom: 0.3125
+rem
+;
+    margin-right: 1
+rem
+;
+    font-size: 3.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2 rem;
+    font-family: "Montserrat";
+}
+/* download buttons */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+/* title-section */
+#title {
+    
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+.title-image {
+    width: 13%;
+    margin-top: 0;
+    position: absolute;
+    right: 69%;
+    border-radius: 100%;
+    border: solid;
+}
+.one {
+    padding: 0 0 4.5rem;
+}
+
+/* proficiency-section */
+
+.row {
+    padding: 3px 0px;
+}
+/* feature section */
+#features {
+    
+    position: relative;
+    z-index: 1;
+}
+.feature-title {
+    font-size: 1.5rem;
+}
+/* Testimonial section */
+#testimonials {
+    padding: 1% 15%;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 30px 50px;
+}
+
+
+/* pricing-section */
+#pricing {
+    padding: 100px;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+@media (max-width: 993px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title {
+        text-align: center;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+/* call to action */
+#cta {
+    padding: 7% 15%;
+}
+
+/* footer section */
+#footer {
+    background-color:aqua;
+    padding: 0 0 4.5rem;
+}
+.onee {
+    display: inline-block;
+    margin: 91px 282px 10px 4px;
+}
+
+
+
+/* skills-section */
+.skills-part {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* progress-sec */
+.progress {
+    margin: 10px 10px;
+}
+
+/* footer section */
+.textarea {
+    width:50%;
+}

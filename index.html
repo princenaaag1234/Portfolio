@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- Bootstrap scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    crossorigin="anonymous" />
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark heading">
+        <a class="navbar-brand" style="font-size: 3.5rem; margin-top:-55px; margin-right:59px;" href=""><b>Prince Nag</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#ctb">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ftr">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row" style="margin-left: 0px;">
+        <div class="col-lg-6">
+          <img class="title-image" src="images/profile.png" alt="iphone-mockup">
+        </div>
+        <div class="col-lg-6 btns">
+          <h5 class="big-heading">Hlo I'm Prince, A computer Science Undergraduate with the ambitions of learning and polishing
+            skills to stand out in the technical world. Nowadays learning how to improve my skills in the field of the web.</h5>
+          <a class="btn btn-outline-light btn-floating m-1" href="#features" role="button"><i
+              class="fas fa-location-arrow"></i>
+            Proficiencies</a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#ftr" role="button"><i class="fas fa-phone"></i>
+            Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <div class="skills-part">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h3><strong>Education
+                <hr>
+              </strong></h3>
+            <h5>B.Tech, Computer Science & Engineering</h5>
+            <p>Jaypee University Of Information Technology</p>
+            <a href="https://www.juit.ac.in/" class="btn btn-primary" style="margin-top: 47px;">Check</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body" id="ctb">
+            <h3><strong>Skills
+                <hr>
+              </strong></h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="HTML"
+                aria-valuemin="0" aria-valuemax="100">HTML</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%"
+                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width:78%"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 70%"
+                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">DOM</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">jQuery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <!-- Projects -->
+  <section id="testimonials" class="colored-section prjts">
+    <h1><b>My Projects</b></h1>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/1.jpg" height="300px" width="800px" alt="dog-profile"> <br>
+          <em>Keeper App</em>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bgs-1.png" height="300px" width="800px" alt="dog-profile"> <br>
+          <em>Blog website</em>
+        </div>
+        <div class="carousel-item">
+          <img src="images/todo.png" height="300px" width="800px" alt="dog-profile"> <br>
+          <em>to do list</em>
+        </div>
+        <div class="carousel-item">
+          <img src="images/TinDog.png" height="300px" width="800px" alt="dog-profile"> <br>
+          <em>Tindog</em>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features" class="feature-set white-section">
+    <div class="container-fluid">
+      <h3 style="margin: 23px 30px;"><b>Proficiencies</b></h3>
+
+      <div class="row">
+        <div class=" one col-lg-4 col-md-4 col-sm-12">
+          <i class="fab fa-html5 fa-4x"></i>
+          <h3 class="feature-title">HTML</h3>
+        </div>
+        <div class=" one col-lg-4 col-md-4 col-sm-12">
+          <i class="fab fa-css3-alt fa-4x"></i>
+          <h3 class="feature-title">CSS</h3>
+        </div>
+        <div class="one col-lg-4 col-md-4 col-sm-12">
+          <i class="fab fa-js fa-4x"></i>
+          <h3 class="feature-title">javaScript</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="bg-dark text-center text-white" id="ftr">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Name -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="far fa-user"> Prince
+            Nag</i></a>
+
+        <!-- Address -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fas fa-map-marker-alt">
+            Mandi(H.P)</i></a>
+
+        <!-- Contact no. -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fas fa-phone"></i>
+          7018479178</a>
+
+      </section>
+
+      <!-- Section: Text -->
+      <h4>Any Suggestions</h4>
+      <form class="mb-4">
+        <div class="form-group" style="display: inline-block; margin-top: 3px;">
+          <input class="form-control textarea" placeholder="Enter suggestions"></input>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top: -5px;">Submit</button>
+      </form>
+
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">| designed by Prince Nag</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+
+</html>
